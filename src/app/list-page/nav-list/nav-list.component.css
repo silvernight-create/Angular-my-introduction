@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "iconfont"; /* Project id  */
+    src: url('src\assets\font\font_e4tl4bvi7ij\iconfont.ttf?t=1664188610078') format('truetype');
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+.nav{
+    height: 47px;
+    border-bottom: 2px solid #b1191a;
+    overflow: hidden;
+}
+.sk_list ul li{
+    float: left;
+}
+.sk_list ul li a{
+    display: block;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    line-height: 47px;
+}
+
+.sk_con ul li{
+    float: left;
+}
+.sk_con ul li a{
+    display: block;
+    padding: 0 20px;
+    font-size: 14px;
+    line-height: 49px;
+}
+.sk_con .moduo::after{
+    
+    content: '\e6b9';
+    font-family: "iconfont" !important;
+}

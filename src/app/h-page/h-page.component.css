@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "iconfont"; /* Project id  */
+    src: url('src\assets\font\font_e4tl4bvi7ij\iconfont.ttf?t=1664188610078') format('truetype');
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+
+.shortcut{
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1f1;
+}
+.shortcut ul li{
+    float: left;
+}
+.shortcut .shu{
+    margin: 9px 15px 0;
+    height: 12px;
+    border: .5px solid rgb(136, 132, 132);
+}
+.arrow-icon::after{
+   content: '\e6b9';
+   font-family: "iconfont" !important;
+   margin-left: 6px;
+}
+
+

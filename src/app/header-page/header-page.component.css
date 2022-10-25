@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "iconfont"; /* Project id  */
+    src: url('src\assets\font\font_e4tl4bvi7ij\iconfont.ttf?t=1664188610078') format('truetype');
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+.header{
+    position: relative;
+    height: 105px;
+}
+.logo{
+    position: absolute;
+    top: 25px;
+    width: 175px;
+    height: 56px;
+    
+}
+.logo a{
+    display: block;
+    width: 175px;
+    height: 56px; 
+    background:url(src\assets\images\logo.png) no-repeat;
+    /* font-size: 0; */
+    text-indent: -9999999px;
+    overflow: hidden;
+}
+.search{
+    position: absolute;
+    left: 346px;
+    top: 25px;
+    width: 538px;
+    height: 36px;
+    border: 2px solid #b1191a;
+}
+.search input{ 
+    float: left;
+    width: 454px;
+    height: 32px;
+    padding-left: 10px;
+    color: #ccc;
+}
+.search button{
+    float: left;
+    width: 80px;
+    height: 32px;
+    background-color: #b1191a;
+    font-size: 16px;
+    color:#fff;
+}
+.hotwrods{
+    position: absolute;
+    left: 346px;
+    top: 70px;
+}
+.hotwrods ul li{
+    float: left;
+    margin: 0 10px;
+    
+}
+.hotwrods .style_css{
+    color: #b1191a;
+}
+.shopcar{
+    position: absolute;
+    right: 60px;
+    top: 25px;
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+}
+.icon{
+    float: left;
+    margin-top: 7.5px;
+    margin-left: 10px;
+
+}
+.shopcar p {
+    float: left;
+    margin-left: 10px;
+  
+}
+.shopcar p::after{
+    content: '\e617';
+    font-family: "iconfont" !important; 
+    margin-left: 15px;
+}
+.count{
+    position: absolute;
+    top: -10px;
+    left: 100px;
+    width: auto;
+    height: 14px;
+    font-size: 12px;
+    line-height: 14px;
+    background-color: #b1191a;
+    color: #fff;
+    border-radius: 7px 7px 7px 0;
+}
